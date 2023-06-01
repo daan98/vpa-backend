@@ -1,8 +1,8 @@
 import express from "express";
 import dotenv from "dotenv";
-import connectDB from "./config/db.js";
-import veterinarianRoutes from "./routes/veterinarian.route.js";
-import patientRoutes from "./routes/patient.route.js";
+import connectDB from "./app/config/db.js";
+import veterinarianRoutes from "./app/routes/veterinarian.route.js";
+import patientRoutes from "./app/routes/patient.route.js";
 import cors from "cors";
 
 const app = express();
